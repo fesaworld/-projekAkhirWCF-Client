@@ -130,7 +130,7 @@ namespace Client_Admin
 
 
 
-        //Tampil Semua User Nama
+        //Tampil Semua User Nama 
         public void BarangNama(string nama)
         {
             var transaksi = new List<dataBarangManual>();
