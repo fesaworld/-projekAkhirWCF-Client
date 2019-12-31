@@ -14,7 +14,6 @@ namespace Client_Admin
 {
     public partial class KelolaTransaksiAuto : Form
     {
-        //string baseurl = "http://localhost:61458/Service1.svc/";
         string baseurl = "http://192.168.137.1/service/Service1.svc/";
 
         string id;
@@ -310,7 +309,7 @@ namespace Client_Admin
         public string Nama_Barang { get; set; }
         public string Nama_Admin { get; set; }
         public int Total_Harga { get; set; }
-        public DateTime Tanggal_Transaksi { get; set; }
+        public string Tanggal_Transaksi { get; set; }
         public string No_Telpon { get; set; }
         public string Alamat { get; set; }
         public string Status { get; set; }

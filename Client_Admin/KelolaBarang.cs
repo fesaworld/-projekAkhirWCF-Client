@@ -15,7 +15,6 @@ namespace Client_Admin
 {
     public partial class KelolaBarang : Form
     {
-        //string baseurl = "http://localhost:61458/Service1.svc/";
         string baseurl = "http://192.168.137.1/service/Service1.svc/";
 
         string id;
